@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB03B0381C01452A0016736D /* UIImageView+NirWebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB03B0371C01452A0016736D /* UIImageView+NirWebImage.swift */; };
+		DB03B03A1C0145D90016736D /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB03B0391C0145D90016736D /* Resource.swift */; };
+		DB03B03C1C01471D0016736D /* NirWebImageOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB03B03B1C01471D0016736D /* NirWebImageOptionsInfo.swift */; };
+		DB03B03E1C0147A00016736D /* NirWebImageOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB03B03D1C0147A00016736D /* NirWebImageOptions.swift */; };
+		DB03B0401C0149DA0016736D /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB03B03F1C0149DA0016736D /* ImageTransition.swift */; };
+		DB03B0421C0158C50016736D /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB03B0411C0158C50016736D /* ThreadHelper.swift */; };
+		DB5918841BFB0D0D0027FF7A /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5918831BFB0D0D0027FF7A /* UIImage+Extension.swift */; };
 		DB6DB7191BF80998003C1AA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DB7181BF80998003C1AA1 /* AppDelegate.swift */; };
 		DB6DB71B1BF80998003C1AA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DB71A1BF80998003C1AA1 /* ViewController.swift */; };
 		DB6DB71E1BF80998003C1AA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6DB71C1BF80998003C1AA1 /* Main.storyboard */; };
 		DB6DB7201BF80998003C1AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6DB71F1BF80998003C1AA1 /* Assets.xcassets */; };
 		DB6DB7231BF80998003C1AA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6DB7211BF80998003C1AA1 /* LaunchScreen.storyboard */; };
+		DB6DB72C1BF809CB003C1AA1 /* NirWebImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DB72B1BF809CB003C1AA1 /* NirWebImageManager.swift */; };
+		DB6DB72E1BF80B24003C1AA1 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DB72D1BF80B24003C1AA1 /* ImageCache.swift */; };
+		DB6DB7301BF80EA3003C1AA1 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DB72F1BF80EA3003C1AA1 /* ImageDownloader.swift */; };
+		DBBEC51B1C0294FB00BD438E /* UIButton+NirWebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBEC51A1C0294FB00BD438E /* UIButton+NirWebImage.swift */; };
+		DBD4FBEA1BFEADAE0051DA4E /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD4FBE91BFEADAE0051DA4E /* String+MD5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB03B0371C01452A0016736D /* UIImageView+NirWebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+NirWebImage.swift"; sourceTree = "<group>"; };
+		DB03B0391C0145D90016736D /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		DB03B03B1C01471D0016736D /* NirWebImageOptionsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NirWebImageOptionsInfo.swift; sourceTree = "<group>"; };
+		DB03B03D1C0147A00016736D /* NirWebImageOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NirWebImageOptions.swift; sourceTree = "<group>"; };
+		DB03B03F1C0149DA0016736D /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
+		DB03B0411C0158C50016736D /* ThreadHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadHelper.swift; sourceTree = "<group>"; };
+		DB5918831BFB0D0D0027FF7A /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		DB6DB7151BF80998003C1AA1 /* NirWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NirWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6DB7181BF80998003C1AA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB6DB71A1BF80998003C1AA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +41,11 @@
 		DB6DB71F1BF80998003C1AA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB6DB7221BF80998003C1AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB6DB7241BF80998003C1AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6DB72B1BF809CB003C1AA1 /* NirWebImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NirWebImageManager.swift; sourceTree = "<group>"; };
+		DB6DB72D1BF80B24003C1AA1 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		DB6DB72F1BF80EA3003C1AA1 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		DBBEC51A1C0294FB00BD438E /* UIButton+NirWebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+NirWebImage.swift"; sourceTree = "<group>"; };
+		DBD4FBE91BFEADAE0051DA4E /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +62,8 @@
 		DB6DB70C1BF80998003C1AA1 = {
 			isa = PBXGroup;
 			children = (
-				DB6DB7171BF80998003C1AA1 /* NirWebImage */,
+				DB6DB72A1BF809A5003C1AA1 /* NirWebImage */,
+				DB6DB7171BF80998003C1AA1 /* NirWebImage-demo */,
 				DB6DB7161BF80998003C1AA1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +76,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB6DB7171BF80998003C1AA1 /* NirWebImage */ = {
+		DB6DB7171BF80998003C1AA1 /* NirWebImage-demo */ = {
 			isa = PBXGroup;
 			children = (
 				DB6DB7181BF80998003C1AA1 /* AppDelegate.swift */,
@@ -61,7 +86,27 @@
 				DB6DB7211BF80998003C1AA1 /* LaunchScreen.storyboard */,
 				DB6DB7241BF80998003C1AA1 /* Info.plist */,
 			);
+			name = "NirWebImage-demo";
 			path = NirWebImage;
+			sourceTree = "<group>";
+		};
+		DB6DB72A1BF809A5003C1AA1 /* NirWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				DB6DB72B1BF809CB003C1AA1 /* NirWebImageManager.swift */,
+				DB6DB72D1BF80B24003C1AA1 /* ImageCache.swift */,
+				DB6DB72F1BF80EA3003C1AA1 /* ImageDownloader.swift */,
+				DB5918831BFB0D0D0027FF7A /* UIImage+Extension.swift */,
+				DBD4FBE91BFEADAE0051DA4E /* String+MD5.swift */,
+				DB03B0371C01452A0016736D /* UIImageView+NirWebImage.swift */,
+				DB03B0391C0145D90016736D /* Resource.swift */,
+				DB03B03B1C01471D0016736D /* NirWebImageOptionsInfo.swift */,
+				DB03B03D1C0147A00016736D /* NirWebImageOptions.swift */,
+				DB03B03F1C0149DA0016736D /* ImageTransition.swift */,
+				DB03B0411C0158C50016736D /* ThreadHelper.swift */,
+				DBBEC51A1C0294FB00BD438E /* UIButton+NirWebImage.swift */,
+			);
+			name = NirWebImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +181,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB03B03A1C0145D90016736D /* Resource.swift in Sources */,
 				DB6DB71B1BF80998003C1AA1 /* ViewController.swift in Sources */,
+				DB6DB7301BF80EA3003C1AA1 /* ImageDownloader.swift in Sources */,
+				DB03B0381C01452A0016736D /* UIImageView+NirWebImage.swift in Sources */,
+				DBBEC51B1C0294FB00BD438E /* UIButton+NirWebImage.swift in Sources */,
+				DBD4FBEA1BFEADAE0051DA4E /* String+MD5.swift in Sources */,
+				DB6DB72C1BF809CB003C1AA1 /* NirWebImageManager.swift in Sources */,
+				DB5918841BFB0D0D0027FF7A /* UIImage+Extension.swift in Sources */,
+				DB03B0421C0158C50016736D /* ThreadHelper.swift in Sources */,
+				DB03B03C1C01471D0016736D /* NirWebImageOptionsInfo.swift in Sources */,
+				DB6DB72E1BF80B24003C1AA1 /* ImageCache.swift in Sources */,
 				DB6DB7191BF80998003C1AA1 /* AppDelegate.swift in Sources */,
+				DB03B0401C0149DA0016736D /* ImageTransition.swift in Sources */,
+				DB03B03E1C0147A00016736D /* NirWebImageOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +342,7 @@
 				DB6DB7291BF80998003C1AA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
